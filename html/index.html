@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <title>Click Tracker</title>
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <center>
+    <div class="box-container">
+      <div class = "head">Click Tracker</div>
+        <div class=count-container>
+            <div id="count"> Click Count:</div>
+            <div id="counter"></div>
+        </div>
+          <div class="button-container">
+              <button class="buttons" id = "reset" onclick="handleAction('reset')">Reset</button>
+              <button class="buttons" id = "click" onclick="handleAction('click')">Click</button>
+          </div>
+    </div>
+    </center>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
